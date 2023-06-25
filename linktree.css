@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #90a1a3;
+    overscroll-behavior: none;
+}
+.mainBody{
+    display: block;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linksDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+.name{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:10px;
+}
+.profilePic{
+    border-radius: 50%;
+    width: 50%;
+}
+.profilePicDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 15px;
+}
+.punchOut{
+    display: grid;
+    grid-template-columns: 0.02fr 1fr;
+    row-gap: 20%;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px;
+    margin: 15px
+}
+@media(max-width: 360px){
+    .punchOut{
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+    }
+}
+.linkImgDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.linkImg{
+    object-fit: contain;
+    border-radius: 20%;
+    width: 100px;
+    margin: 10px;
+}
+.linkNameDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+}
+.linkName{
+    font-size: 30px;
+}
